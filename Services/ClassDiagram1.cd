@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Services.CourseService" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgABAAAAAAEAAEACAgAAAAAAAIA=</HashCode>
+      <FileName>Implementations\CourseService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Services.GradeService" BaseTypeListCollapsed="true">
+    <Position X="4" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgABAAAAAAEAAEACAgAAAAAAAIA=</HashCode>
+      <FileName>Implementations\GradeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Services.Mapping.CourseMappingProfile">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\CourseMappingProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Mapping.GradeMappingProfile">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\GradeMappingProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.CreateCourseRequest">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Course\CreateCourseRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.CreateCourseResponse">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Messaging\Course\CreateCourseResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.DeleteCourseRequest">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Course\DeleteCourseRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.DeleteCourseResponse">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Messaging\Course\DeleteCourseResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.GetAllCoursesRequest">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Messaging\Course\GetAllCoursesRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.GetAllCoursesResponse">
+    <Position X="16.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Course\GetAllCoursesResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.GetCourseByIdRequest">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Course\GetCourseByIdRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.GetCourseByIdResponse">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Messaging\Course\GetCourseByIdResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.UpdateCourseRequest">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAQAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Course\UpdateCourseRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.UpdateCourseResponse">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Messaging\Course\UpdateCourseResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.CreateGradeRequest">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAAAgAAEAAAA=</HashCode>
+      <FileName>Messaging\Grade\CreateGradeRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.CreateGradeResponse">
+    <Position X="18.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Grade\CreateGradeResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.DeleteGradeRequest">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Grade\DeleteGradeRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.DeleteGradeResponse">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Grade\DeleteGradeResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.GetAllGradesRequest">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Messaging\Grade\GetAllGradesRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.GetAllGradesResponse">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Messaging\Grade\GetAllGradesResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.GetGradeByIdRequest">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Grade\GetGradeByIdRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.GetGradeByIdResponse">
+    <Position X="20.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Grade\GetGradeByIdResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.UpdateGradeRequest">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAACAAAAAAQAAAAgAAEAAAA=</HashCode>
+      <FileName>Messaging\Grade\UpdateGradeRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.UpdateGradeResponse">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Grade\UpdateGradeResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Messaging.BaseResponse">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\BaseResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Views.CourseView">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAQAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Views\CourseView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Services.Views.GradeView">
+    <Position X="10.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAAAAAAAAACAAAAAAQAAAAgAAEAAAA=</HashCode>
+      <FileName>Views\GradeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Services.ICourseService">
+    <Position X="2.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAEACAgAAAAAAAIA=</HashCode>
+      <FileName>Interfaces\ICourseService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Services.IGradeService">
+    <Position X="4" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAEACAgAAAAAAAIA=</HashCode>
+      <FileName>Interfaces\IGradeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
