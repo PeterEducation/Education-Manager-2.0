@@ -1,0 +1,52 @@
+﻿@model EducationManager2.Models.GradeDeleteViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Delete";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Grade</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Course
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GradeView.CourseName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GradeView.GradeNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GradeView.GradeNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GradeView.Value)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GradeView.Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GradeView.Note)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GradeView.Note)
+        </dd>
+    </dl>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
